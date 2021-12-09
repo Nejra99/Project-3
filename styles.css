@@ -1,0 +1,214 @@
+/*
+Name: Nejra Halimic
+Course: CS412
+Assignment: Project 2- CSS
+Due Date:05.11.2021
+Purpose:Basics of CSS
+
+*/
+
+
+
+h2.Bio{
+    color:rgb(0, 102, 255);
+    font-family: "Segoe UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 10px;
+    font-size:20pt;
+    text-align: center;
+    font-style: italic;
+}
+
+h2.Edu{
+    color:  blue;
+    font-family: "Segoe UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 17px;
+    font-size: 30pt;
+    text-align: center;
+    text-decoration: underline overline wavy blue;
+}
+
+
+
+h2.Skills{
+    color:blue;
+    font-family: "Segoe UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 17px;
+    font-size: 30pt;
+    text-align: center;
+
+}
+h2.Skills{
+    color:blue;
+    font-family: "Segoe UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 17px;
+    font-size: 30pt;
+    text-align: center;
+    text-decoration: underline overline wavy blue;
+}
+
+
+h2.Languages{
+    color: blue;
+    font-family: "Segoe UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 17px;
+    font-size: 30pt;
+    text-align: center;
+    text-decoration: underline overline wavy blue;
+}
+h2.PersonalInfo{
+    color:blue;
+    font-family: "Segoe UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 17px;
+    font-size: 30pt;
+    text-align: center;
+    text-decoration: underline overline wavy blue;
+}
+h2.Adress{
+    color:blue;
+    font-family: "Segoe UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 17px;
+    font-size: 30pt;
+    text-align: center;
+    text-decoration: underline overline wavy blue;
+}
+p.Nav{
+    background-color: rgb(85, 120, 236);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:30Pt;
+    text-align: center;
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;
+    font-size:20px;
+    background-color:rgb(85, 105, 216);
+}
+
+
+blockquote.quote{
+    color:rgb(0, 102, 255);
+    float:inline-end;
+    width: 250px;
+    font-size: 130%;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0px 0px 5px 10px;
+    padding: 5px;
+    border-top: 1px solid rgb(209, 20, 184)  ;
+    border-bottom: 1px solid rgb(209, 20, 184);
+    text-align: center;
+    
+
+
+}
+img.Profile{
+
+    box-shadow: 30px 30px 10px rgb(142, 181, 240);
+    width: 190px;
+    height: 400px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+    
+
+}
+
+div{
+    height: 250px;
+    width: 300px;
+    background-color: rgb(131, 197, 241);
+    padding:110px;
+    margin: 20px;
+    margin: 0px auto 0px auto; 
+    padding:5px;font-size:20px;
+
+    
+
+}
+    /*div {
+        width: 300px;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
+      }
+*/
+p.Bio{
+    height: 200px;
+    width: 200px;
+    background-color: #b1d5e6;
+
+}
+ol.EduOL{
+    list-style-image: url("imgs/education-1800793-15314811");
+    float: right; 
+}
+    li{
+        margin: 10px 0px 0px 0px;
+    }   
+
+table{
+    width:600px;
+    border-bottom: 2px brown;
+    text-align: center;
+    
+}
+
+.Languages{
+    margin-left: auto;
+  margin-right: auto;
+}
+th, td{
+    padding: 7px 10px 10px 10px;
+    text-align: center;
+
+}
+th{
+    text-transform: uppercase;
+    border-bottom: 2px solid orange;
+    border-top: 1px solid orange;
+    text-align: center;
+
+}
+tr:hover{
+    background-color: antiquewhite;
+}
+.button{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+    background-color: rgb(3, 30, 53);
+    color: rgb(195, 195, 14);
+    border: 2px solid gray;
+    border-radius: 7px;
+    opacity: 0;
+    transition: 0.7s;
+
+}
+.show-button{
+    opacity: 1;
+}
+
+.Up{
+    left: 505px;
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    border: black 2px solid;
+    background-color:rgb(109, 168, 247);
+      font-size: 17px;
+
+}
+.Down{
+    left: 914px;
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    border: black 2px solid;
+    background-color:rgb(109, 168, 247);
+      font-size: 17px;
+
+}
+

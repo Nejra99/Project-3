@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">  
+    <title>Nejra Halimic - Resume</title> 
+
+    <!--
+        Name: Nejra Halimic
+        Course: CS412 [1]
+        Project: 1
+        Due Date: 22/10/2021
+        Purpose: Basics of HTML
+    -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="Untitled-1.js"></script>
+    <link 
+     href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+     rel="stylesheet"
+     />
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head> 
+
+<body style="background-color:azure"> 
+    
+   
+<!--</body>style="background-color:rgb(130, 182, 230);"></body>
+-->
+<!--<figure>-->
+
+    <img src="myphoto.jpg" alt="Logo" style= "border-radius: 50%;" class="Profile" >
+<!-- </figure>-->
+
+<p class="Nav">
+        <a href= "#Bio">Bio</a>
+        <a href= "#Edu"> Education</a>
+        <a href= "#Skills"> Skills</a>
+        <a href= "#Personal Information"> Personal Information</a>
+        <a href= "#Adress"> Adress</a>
+</p>
+<button class="Up" id="slDown">
+    <a>Slide Up!</a>
+</button>
+<button class="Down" id="slUp">
+    <a>Slide Down!</a>
+</button>
+<div id="bioBox">
+<a name="Bio"><h2 class="Bio">Bio</h2></a>
+<p style = "font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> My name is Nejra Halimic   </p>
+<p style = "font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Im currently student at the IUS. </p>
+<blockquote class="quote">This is the way</blockquote>
+</div>
+
+
+ <!--<hr>
+EDUCATION
+ -->
+
+<a name="Edu"><h2 class="Edu">Education</h2></a>
+<ol class="Edu">
+    <li><b>Highschool: </b>Peta Gimnazija Sarajevo "Informatics" </li>
+    <li><b>University: </b>International University of Sarajevo: Computer Science and Engineering </li>
+</ol>
+<hr>
+
+<!--
+  SKLILLS   
+ -->
+<a name="Skills"><h2 class="Skills">Skills</h2></a>
+<ul type="square">
+    <li >Programming</li>
+    <oL type="a">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVA</li>
+    </ol>
+    <li> Art</li>
+    <li> Photography</li>
+    <li> Cooking</li>
+</ul>
+<hr>
+
+<!--Lang-->
+<a  name="Lang"><h2 class="Languages">Languages</h2></a>
+<table>
+    <tr>
+        <th> Speaking</th> <th>Writing</th>
+    </tr>
+    <tr>
+        <td>German</td> <td>English</td>
+    </tr>
+    <tr>
+        <td>Arabic</td> <td rowspan="2">Chinese</td>
+    </tr>
+    <tr>
+        <td>Bosnian</td>
+    </tr>
+</table>
+
+
+
+
+<!--
+    PERS INFO 
+ -->
+<a name="Personal Information"><h2 class="PersonalInfo">Personal Information</h2></a>
+<ul type="disc">
+    <li> A young, hardworking and smart working person. </li>
+    <li><b>Hobbies:</b> Playing chess, self learning, reading books</li>
+</ul>
+<hr>
+<!--
+   ADRESS  
+ -->
+<!--COMMENT TEST-->
+<a name="Adress"><h2 class="Adress">Adress</h2></a>
+<adress>
+<p>
+    <Del>Hrasnička cesta 15, 71210 Sarajevo, BiH </Del> <ins> Branislava Nusica 60, 71000</ins>
+</p>
+</adress>
+<hr>
+
+<!--
+  CONTACT   
+ -->
+<a name="Contact mr"><h3>Contact Me: </h3></a>
+<adress>
+    <strong>E mail: </strong> <a href ="mailto: nejrah333@gmail.com ">click here </a> <br>
+    <strong>Phone No.: </strong>00 387 62 118 308.
+</p>
+
+
+<p>
+    <a name= "#Bio"><img src="mailphoto.png" alt="edu1"></a>
+    
+</p>
+</adress>
+<button class="button" id="top-btn" onclick="goToTop()">
+    <i class="fas fa-arrow-up"></i>
+</button>
+</body>
+<script>
+    $(document).ready(()=>{
+
+    
+   $("#slDown").click(()=>{
+       $("#bioBox").slideUp(2000);
+   });
+   $("#slUp").click(()=>{
+       $("#bioBox").slideDown(2000);
+   });
+    
+});
+
+
+</script>
+</html>
